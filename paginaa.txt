@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP_flowershoop - Flores Amarillas</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fff8dc;
+            color: #444;
+            text-align: center;
+            padding: 20px;
+            background-image: url('https://source.unsplash.com/1600x900/?yellow-flowers');
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #d4af37;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 20px;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .precio {
+            font-weight: bold;
+            color: #b8860b;
+        }
+        .contacto {
+            margin-top: 20px;
+            font-size: 18px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>LP_flowershoop - Flores Amarillas Primavera 2025</h1>
+    <div class="container">
+        <ul>
+            <li>Rosas Amarillas - 
+            <li>Tulipanes Amarillos - 
+            <li>Girasoles - 
+            <li>Orquídeas Amarillas - 
+            <li>Margaritas Amarillas - 
+            <li>Ramo Karen (12 rosas amarillas y 3 girasoles) - <span class="precio">$1000 MXN</span></li>
+            <li>Ramo Ana (24 rosas blancas y 5 girasoles) - <span class="precio">$1300 MXN</span></li>
+            <li>Ramo Abejita (8 girasoles y follaje) - <span class="precio">$1000 MXN</span></li>
+            <li>Ramo Sol de Oro (12 gerberas amarillas) - <span class="precio">$800 MXN</span></li>
+            <li>Ramo Sol de Primavera (10 tulipanes amarillos) - <span class="precio">$1200 MXN</span></li>
+            <li>Ramo Sonrisa de Sol (24 rosas amarillas) - <span class="precio">$1000 MXN</span></li>
+            <li>Ramo Melanie (150 rosas) - <span class="precio">$6800 MXN</span></li>
+            <li>Ramo de 100 rosas amarillas - <span class="precio">$2400 MXN</span></li>
+            <li>Ramo de 50 rosas amarillas - <span class="precio">$1600 MXN</span></li>
+        </ul>
+        <div class="contacto">
+            <p><strong>Números de atención:</strong></p>
+            <p>📞 6681242064</p>
+            <p>📞 6682918894</p>
+        </div>
+    </div>
+</body>
+</html>
+[autorun]
+OPEN=SETUP.EXE
+ICON=SETUP.EXE,0
+
+shell\configure=&Configure...
+shell\configure\command=SETUP.EXE
+
+shell\install=&Install...
+shell\install\command=SETUP.EXE
